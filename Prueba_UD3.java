@@ -27,15 +27,15 @@ public class Prueba_UD3 {
 
                 }
             }
-            return numero;
+            return numero *(-1);
         } else {
             throw new Exception(NULL_MESSAGE);
         }
     }
 
     public static void main(String[] args) throws Exception {
-        char[] charArray = {  'f', '0', '0', '0' };
+        char[] charArray = {  '-', '4', '1', '0' };
         int entero = convertToEnteroNegativo(charArray);
-        System.out.println("Se ha leído: " + entero*(-1));
+        System.out.println("Se ha leído: " + entero);
     }
 }
